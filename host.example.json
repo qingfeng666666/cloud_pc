@@ -1,0 +1,10 @@
+{
+  "headless": true,
+  "slaves": [],
+  "current_slaves": [],
+  "relay_grants": [],
+  "management_bind": "0.0.0.0",
+  "management_port": 19526,
+  "management_interval": 5,
+  "log_level": "INFO"
+}

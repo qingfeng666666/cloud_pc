@@ -1,0 +1,2 @@
+# Independent Windows management UI. tkinter is provided by Python/Tk.
+Pillow>=9.0

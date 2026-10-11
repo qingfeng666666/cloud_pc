@@ -1,0 +1,42 @@
+Cloud PC Android Slave — Third-party notices
+
+Cloud PC original code: MIT, Copyright (c) 2026 Cloud PC contributors.
+Third-party components retain their original licenses; the project MIT
+license does not relicense them.
+WireGuard is consumed as the original Maven AAR. Cloud PC does not modify
+WireGuard source. Third-party source archives are distributed separately
+from Cloud PC's MIT source; retaining original code does not waive its
+redistribution conditions.
+
+WireGuard Android tunnel 1.0.20260102
+https://git.zx2c4.com/wireguard-android/
+Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
+Java/Kotlin library and Android integration: Apache-2.0.
+The bundled native tools libwg.so and libwg-quick.so include
+wireguard-tools code under GPL-2.0. See upstream per-file notices.
+
+wireguard-go v0.0.0-20250521234502-f333402bd9cb
+https://git.zx2c4.com/wireguard-go/
+MIT; see WIREGUARD-GO-MIT.txt and source per-file notices.
+
+Go runtime 1.24.3 and Android runtime patch in WireGuard Android source
+https://go.dev/
+BSD-3-Clause; see GO-BSD.txt and source PATENTS/third-party notices.
+
+golang.org/x/sys v0.33.0, golang.org/x/crypto v0.38.0,
+golang.org/x/net v0.40.0
+BSD-3-Clause; source LICENSE, PATENTS and per-file notices apply.
+x/net is present in go.mod; this is not a claim that all its packages
+are linked into the Android binary.
+
+AndroidX annotation 1.9.1 and collection 1.5.0
+Copyright The Android Open Source Project; Apache-2.0.
+Android core library desugaring desugar_jdk_libs 2.1.5
+Includes OpenJDK-derived code; licenses and Classpath Exception must be
+checked against the desugared output, not only the artifact POM.
+
+Release source materials:
+Distributors must ship the matching third-party source archive alongside
+the APK and preserve its licenses, patches and build scripts. A homepage
+link alone is not a replacement for applicable source obligations.
+See THIRD_PARTY_NOTICES.md and docs/THIRD_PARTY_RELEASE.md in the repository.

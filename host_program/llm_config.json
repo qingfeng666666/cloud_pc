@@ -1,0 +1,5 @@
+{
+  "codex": {"enabled": true, "socket": "auto", "command": ["codex", "app-server", "--stdio"]},
+  "dsh": {"enabled": true, "url": "http://127.0.0.1:3080", "start_command": ["dsh", "web"]},
+  "opencode": {"enabled": true, "url": "http://127.0.0.1:4096", "start_command": ["opencode", "serve", "--hostname", "127.0.0.1", "--port", "4096"]}
+}

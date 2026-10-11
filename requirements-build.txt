@@ -1,0 +1,2 @@
+# Packaging tool; not required to run an installed program.
+pyinstaller>=5.13.0

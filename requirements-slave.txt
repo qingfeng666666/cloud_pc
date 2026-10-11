@@ -1,0 +1,4 @@
+# Windows/Linux Python slave. runtime_capture imports numpy/scipy at startup.
+numpy>=1.24
+scipy>=1.10
+sounddevice>=0.4.6

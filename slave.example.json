@@ -1,0 +1,6 @@
+{
+  "root": "shared",
+  "port": 9527,
+  "name": "CloudSlave",
+  "log_level": "INFO"
+}

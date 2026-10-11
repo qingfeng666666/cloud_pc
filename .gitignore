@@ -1,0 +1,83 @@
+# Local settings and credentials (examples are tracked).
+/host.json
+/slave.json
+/management.json
+/management_ui/config.json
+*.bak
+*.bak-*
+
+# Private deployment/download helpers and historical device instructions.
+/android_slave/serve_private_apk.py
+/android_slave/probe.py
+/android_slave/current_window_diagnostics.py
+/android_slave/current_window_relay.py
+/android_slave/hololens_portal_relay.py
+/android_slave/hand_recording_sync.py
+/host_program/package_llm_release.py
+/shared_components/rebuild_snapshot_push_slave.py
+/shared_components/*使用说明.md
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.pem
+*.key
+*.keystore
+*.jks
+*.conf
+!*.example.conf
+local.properties
+
+# Generated output and local release compatibility symlinks.
+**/dist
+**/build
+**/bin
+**/obj
+**/AppPackages
+**/Generated Files
+**/ARM64
+**/x64
+/windows_version/20261007
+/windows_version/20261009
+/windows_version/1.0.0
+*.apk
+*.aab
+*.exe
+*.dll
+*.msix
+*.appx
+*.appxbundle
+*.msixbundle
+*.appxsym
+*.zip
+*.lnk
+*.vcxproj.user
+
+# Caches, local SDKs and environments.
+**/__pycache__/
+*.py[cod]
+**/.gradle/
+**/.vs/
+**/.idea/
+**/.venv/
+**/venv/
+.pytest_cache/
+
+# Runtime/private data, not source assets.
+/shared/
+**/runtime_logs/
+**/runtime_snapshot/
+**/diagnostics/
+*.log
+*.log.*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.db
+*.db-*
+
+# HoloLens projects are excluded from this release.
+/hololens_host/
+/uwp_version/

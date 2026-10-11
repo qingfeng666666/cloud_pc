@@ -1,0 +1,6 @@
+# Desktop development aggregate, retained for existing install commands.
+# GTK/PyGObject, Tk and PortAudio system packages are documented in README.md.
+-r ../requirements-host-gui.txt
+-r ../requirements-slave.txt
+-r ../requirements-ui-windows.txt
+-r ../requirements-build.txt

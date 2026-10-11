@@ -1,0 +1,2 @@
+# Convenience aggregate; install module-specific files for a minimal setup.
+-r shared_components/requirements.txt
